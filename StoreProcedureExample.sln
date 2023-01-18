@@ -3,16 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ProductDb", "..\ProductDb\ProductDb.sqlproj", "{FF316154-77FF-437F-BBBB-D09476E803E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductShop", "ProductShop\ProductShop.csproj", "{14C2E1C2-A042-48EE-935A-CFBBCB62CD19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductShop", "ProductShop\ProductShop.csproj", "{14C2E1C2-A042-48EE-935A-CFBBCB62CD19}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{3B002F6B-6D21-4722-A5CD-311B4655C01E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{3B002F6B-6D21-4722-A5CD-311B4655C01E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6C493A52-1524-4D60-A6FA-FD30A7A56400}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ProductDb", "ProductDb\ProductDb.sqlproj", "{4793DF25-CF24-4614-9B21-DF23CAA9CAFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,12 +20,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FF316154-77FF-437F-BBBB-D09476E803E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF316154-77FF-437F-BBBB-D09476E803E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF316154-77FF-437F-BBBB-D09476E803E2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{FF316154-77FF-437F-BBBB-D09476E803E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF316154-77FF-437F-BBBB-D09476E803E2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FF316154-77FF-437F-BBBB-D09476E803E2}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{14C2E1C2-A042-48EE-935A-CFBBCB62CD19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{14C2E1C2-A042-48EE-935A-CFBBCB62CD19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14C2E1C2-A042-48EE-935A-CFBBCB62CD19}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -34,6 +28,12 @@ Global
 		{3B002F6B-6D21-4722-A5CD-311B4655C01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B002F6B-6D21-4722-A5CD-311B4655C01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B002F6B-6D21-4722-A5CD-311B4655C01E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4793DF25-CF24-4614-9B21-DF23CAA9CAFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4793DF25-CF24-4614-9B21-DF23CAA9CAFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4793DF25-CF24-4614-9B21-DF23CAA9CAFB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4793DF25-CF24-4614-9B21-DF23CAA9CAFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4793DF25-CF24-4614-9B21-DF23CAA9CAFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4793DF25-CF24-4614-9B21-DF23CAA9CAFB}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
